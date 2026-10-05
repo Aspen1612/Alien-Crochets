@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alien Crochets</title>
+
+    <!-- Quicksand Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home">
+                <img src="images/aliencrochetslogo-removebg-preview.png" alt="Alien Crochets logo" class="logo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">HANDMADE WITH LOVE</p>
+
+            <h2>
+                Cute things,<br>
+                made one stitch at a time.
+            </h2>
+
+            <p>
+                Handmade crochet pieces created with care,
+                creativity and lots of yarn.
+            </p>
+
+            <a href="#shop" class="button">Shop Now</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SHOP SECTION -->
+    <section id="shop" class="section">
+
+        <p class="section-label">OUR COLLECTION</p>
+
+        <h2>Shop Our Crochet</h2>
+
+        <div class="products">
+
+            <!-- PRODUCT 1 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="images/Crochet top.jpeg" alt="Crochet Top">
+                </div>
+
+                <h3>Crochet Top</h3>
+
+                <p>₦15,000</p>
+
+                <button onclick="orderProduct('Crochet Top', '₦15,000')">
+                    Order Now
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCT 2 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="images/Bikini 1.jpeg" alt="Crochet Bikini Set">
+                </div>
+
+                <h3>Crochet Bikini Set</h3>
+
+                <p>₦12,000</p>
+
+                <button onclick="orderProduct('Crochet Bikini Set', '₦12,000')">
+                    Order Now
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCT 3 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="images/Beanie 2.jpeg" alt="Handmade Beanie">
+                </div>
+
+                <h3>Handmade Beanie</h3>
+
+                <p>₦8,000</p>
+
+                <button onclick="orderProduct('Handmade Beanie', '₦8,000')">
+                    Order Now
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+
+        <div class="about-text">
+
+            <p class="section-label">OUR STORY</p>
+
+            <h2>Made by hand.<br>Made with love.</h2>
+
+            <p>
+                Welcome to Alien Crochets! We create handmade crochet
+                pieces designed to add a little warmth and personality
+                to your everyday life.
+            </p>
+
+            <p>
+                Every piece is carefully crocheted by hand,
+                making every order special and unique.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+
+        <p class="section-label">OUR WORK</p>
+
+        <h2>A little look at our creations</h2>
+
+        <div class="gallery">
+
+            <div class="gallery-item"><img src="images/Bikini 2.jpeg" alt="Bikini 2"></div>
+            <div class="gallery-item"><img src="images/Blue coster.jpeg" alt="Blue Coaster"></div>
+            <div class="gallery-item"><img src="images/Purple Coaster.jpeg" alt="Purple Coaster"></div>
+            <div class="gallery-item"><img src="images/Table Mat 1.jpeg" alt="Table Mat 1"></div>
+            <div class="gallery-item"><img src="images/Table Mat 2.jpeg" alt="Table Mat 2"></div>
+            <div class="gallery-item"><img src="images/Binnie.jpeg" alt="Beanie"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <p class="section-label">LET'S CREATE</p>
+
+        <h2>Want something handmade?</h2>
+
+        <p>
+            Have a custom idea? Send us a message and
+            let's create something together.
+        </p>
+
+        <a
+            href="https://wa.me/2348124883473"
+            class="button"
+            target="_blank"
+        >
+            Message Us on WhatsApp
+        </a>
+
+        <a
+            href="https://www.instagram.com/alien.crochets?utm_source=ig_web_button_share_sheet&amp;stkn=ZDNlZDc0MzIxNw=="
+            class="button instagram-button"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Alien Crochets on Instagram"
+        >
+            Follow us on Instagram @alien.crochets
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Alien Crochets 🧶</h3>
+
+        <p>Handmade with love.</p>
+
+        <p>© 2026 Alien Crochets. All rights reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
